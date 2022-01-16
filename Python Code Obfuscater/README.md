@@ -12,7 +12,9 @@ SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-
 exec(SrcCode.text)
 ```
 
-## Code example:
+## **Code example:**
+
+### Setup
 ```python
 import requests
 
@@ -26,7 +28,6 @@ exec(SrcCode.text)
 
 #COhelp() # help function
 
-
 # Input code that want to obfuscate
 yourcode = r"""
 # put your code in here
@@ -36,12 +37,12 @@ yourcode = r"""
 # Run function
 obfus = CodeObfuscate(yourcode)
 
-
 # write to .txt file
 txtfile = open("obfuscated_code.txt","w")
 txtfile.writelines(obfus)
 txtfile.close()
 ```
+
 
 ### For google colab:
 ```python
@@ -61,4 +62,20 @@ yourcode = r"""
 print("#Here is your obfuscated code:\n#START")
 print(CodeObfuscate(yourcode))
 print("\b#END")
+```
+
+
+### Test run:
+```python
+import requests
+SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-stuff/main/Python%20Code%20Obfuscater/Python%20Code%20Obfuscater.py")
+exec(SrcCode.text)
+yourcode = r"""
+print("Hello")
+"""
+print(CodeObfuscate(yourcode))
+```
+```python
+# Output:
+
 ```
