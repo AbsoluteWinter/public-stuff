@@ -5,7 +5,7 @@ version: 1.0.0
 
 ## **What is code obfuscate?**
 
-TL:DR<br>
+**TL:DR**<br>
 Make the code human-unreadable<br>
 *(Machine can still execute it. How nice!)*
 
