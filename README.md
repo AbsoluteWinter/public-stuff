@@ -1,4 +1,4 @@
-![](images/repository-image.png)
+![](images/repository-image-white.png)
 
 # PUBLIC STUFF
 
