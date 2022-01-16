@@ -3,7 +3,7 @@ by AbsoluteWinter
 version: 1.0.0
 
 
-# **How to use**
+## **How to use**
 
 Paste these lines in python script:
 ```python
@@ -12,7 +12,7 @@ SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-
 exec(SrcCode.text)
 ```
 
-Code example:
+## Code example:
 ```python
 import requests
 
@@ -43,7 +43,7 @@ txtfile.writelines(obfus)
 txtfile.close()
 ```
 
-For google colab:
+### For google colab:
 ```python
 import requests
 Src1 = "https://raw.githubusercontent.com/Absolu"
