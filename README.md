@@ -4,6 +4,6 @@
 Current Content:
 
 
-* Python code obfuscater
+* Python code obfuscator
 
 
