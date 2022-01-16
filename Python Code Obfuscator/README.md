@@ -1,4 +1,4 @@
-# **Python Code Obfuscater**
+# **Python Code Obfuscator**
 by AbsoluteWinter  
 version: 1.0.0
 
