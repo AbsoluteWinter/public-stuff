@@ -16,8 +16,14 @@ Code example:
 ```python
 import requests
 
-SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-stuff/main/Python%20Code%20Obfuscater/Python%20Code%20Obfuscater.py")
+Src1 = "https://raw.githubusercontent.com/Absolu"
+Src2 = "teWinter/public-stuff/main/Python%20Code"
+Src3 = "%20Obfuscater/Python%20Code%20Obfuscater"
+Src4 = ".py"
+Src = Src1 + Src2 + Src3 + Src4
+SrcCode = requests.get(Src)
 exec(SrcCode.text)
+
 #COhelp() # help function
 
 
