@@ -1,4 +1,4 @@
-![](images/repository-image-white.png)
+![](images/repository-image-white-crop.png)
 
 
 # **CURRENT CONTENT:**
