@@ -16,7 +16,7 @@ Make the code human-unreadable<br>
 Paste these lines in python script:
 ```python
 import requests
-SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-stuff/main/Python%20Code%20Obfuscater/Python%20Code%20Obfuscater.py")
+SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-stuff/main/Python%20Code%20Obfuscator/Python%20Code%20Obfuscator.py")
 exec(SrcCode.text)
 ```
 
@@ -28,7 +28,7 @@ import requests
 
 Src1 = "https://raw.githubusercontent.com/Absolu"
 Src2 = "teWinter/public-stuff/main/Python%20Code"
-Src3 = "%20Obfuscater/Python%20Code%20Obfuscater"
+Src3 = "%20Obfuscator/Python%20Code%20Obfuscator"
 Src4 = ".py"
 Src = Src1 + Src2 + Src3 + Src4
 SrcCode = requests.get(Src)
@@ -57,7 +57,7 @@ txtfile.close()
 import requests
 Src1 = "https://raw.githubusercontent.com/Absolu"
 Src2 = "teWinter/public-stuff/main/Python%20Code"
-Src3 = "%20Obfuscater/Python%20Code%20Obfuscater"
+Src3 = "%20Obfuscator/Python%20Code%20Obfuscator"
 Src4 = ".py"
 Src = Src1 + Src2 + Src3 + Src4
 SrcCode = requests.get(Src)
@@ -76,7 +76,7 @@ print("\b#END")
 ### Test run:
 ```python
 import requests
-SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-stuff/main/Python%20Code%20Obfuscater/Python%20Code%20Obfuscater.py")
+SrcCode = requests.get("https://raw.githubusercontent.com/AbsoluteWinter/public-stuff/main/Python%20Code%20Obfuscator/Python%20Code%20Obfuscator.py")
 exec(SrcCode.text)
 mycode = r"""
 print("Hello")
