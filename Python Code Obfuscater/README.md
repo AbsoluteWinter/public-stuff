@@ -84,7 +84,7 @@ print("Hello")
 print(CodeObfuscate(mycode))
 ```
 ```python
-# Output:
+# Output: (basically translates to print("Hello"))
 exec('\x69\x6d\x70\x6f\x72\x74\x20\x62\x61\x73\x65\x36\x34')
 VrCxIdVkOQsn='ZXhlYygnXHg2OVx4NmRceDcwXHg2Zlx4NzJceDc0XHgyMFx4NjJceDYxXHg3M1x4NjVceDM2XHgzNFx4'
 rRjWulSWLsoB='MjBceDYxXHg3M1x4MjBceDRkXHg2Mlx4NTlceDYxXHg0Ylx4NzFceDRiXHg0OFx4NDdceDUzXHg2ZFx4'
@@ -116,3 +116,5 @@ RFoTpgUGddZsMuf='\x3c\x73\x74\x72\x69\x6e\x67\x3e'
 STgbGnvqnJSyLbX='\x65\x78\x65\x63'
 eval(compile(base64.b64decode(mZGxLreneNWN),RFoTpgUGddZsMuf,STgbGnvqnJSyLbX))
 ```
+
+Then, you can copy the `OUTPUT` and paste it somewhere else!
