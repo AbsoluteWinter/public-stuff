@@ -1,9 +1,7 @@
 ![](images/repository-image-white.png)
 
-# PUBLIC STUFF
 
-
-Current Content:
+# **CURRENT CONTENT:**
 
 
 * Python code obfuscator
