@@ -1,15 +1,8 @@
-﻿;#NoTrayIcon
-#SingleInstance force
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+# **Python typing shorcut**
 
+Here is the list:
 
-;=======================================================================================
-; Python code shortcut
-;=======================================================================================
-
+```ahk
 ::]pfi::
 send, for i in range():
 send, {left}{left}
@@ -47,3 +40,4 @@ return
 ::]main::
 send, if __name__ == "__main__":{ENTER}pass
 return
+```
