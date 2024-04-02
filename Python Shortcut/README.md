@@ -1,5 +1,7 @@
 # **Python typing shorcut**
 
+Use code snip instead
+
 Here is the list:
 
 ```ahk
