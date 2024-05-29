@@ -4,6 +4,8 @@ Python Picture to PNG
 Python 3.9+
 """
 
+__version__ = "1.2.0"
+
 import shutil
 from pathlib import Path
 from typing import List, Union
@@ -14,13 +16,14 @@ from tqdm import tqdm
 
 register_heif_opener()
 
-VALID_SUFFIX = {".jpg", ".jpeg", ".heic"}
+VALID_SUFFIX = {".jpg", ".jpeg", ".heic", ".heif"}
+PIC_BACKUP_FOLDER = "AAAAA_OLD_PICS"
 
 
 class Pic2Png:
     def __init__(self, path: Union[str, Path]) -> None:
         self.path = Path(path)
-        self.old_pic_path = self.path.joinpath("AAAAA_OLD_PICS")
+        self.old_pic_path = self.path.joinpath(PIC_BACKUP_FOLDER)
         self.old_pic_path.mkdir(parents=True, exist_ok=True)
 
         self._convert_desc = "Converting to png..."
@@ -30,7 +33,9 @@ class Pic2Png:
         out = [
             x
             for x in self.path.glob("**/*")
-            if x.suffix.lower() in VALID_SUFFIX and not x.is_dir()
+            if x.suffix.lower() in VALID_SUFFIX
+            and not x.is_dir()
+            and x.parent.name != PIC_BACKUP_FOLDER
         ]
         return out
 
